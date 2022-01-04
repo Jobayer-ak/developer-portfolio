@@ -4,6 +4,12 @@ body{
     font-family: 'Sintony', sans-serif; */
     margin: 0;
 }
+
+/* ======Welcome Section section===========*/
+section{
+    display: flex;
+    margin-bottom: 100px;
+}
 h1{
     font-size: 50px;
     
@@ -12,15 +18,12 @@ h1{
     color: orange;
 }
 
-section{
-    display: flex;
-}
 .half-width{
     width: 50%;
     padding-left: 5%;
 }
 .half-width img{
-    width: 80%;
+    width: 90%;
 }
 .link-button{
     text-decoration: none;
@@ -34,3 +37,11 @@ section{
     background-image: url(/images/top-banner.png);
     background-repeat: no-repeat;
 }
+
+/* ======Dream Big section===========*/
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
